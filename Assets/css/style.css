@@ -31,15 +31,6 @@ a{
     font-weight:200;
 }
 
-.navigation-button{
-    width:100px;
-    font-size:20px;
-    background-color:#ec4067;
-    border-radius:8px;
-    border:none;
-    color:white;
-}
-
 .introduction-bar{
     display:flex;
     overflow:auto;
@@ -51,21 +42,70 @@ a{
     justify-content:space-evenly;
     align-items: flex-start;
     margin-left:100px;
+    max-width:500px;
 }
 
+.enroll-button{
+    width:130px;
+    height:40px;
+    font-size:20px;
+    background-color:#ec4067;
+    border-radius:4px;
+    border:none;
+    color:white;
+    transition:.3s ease-in-out;
+    margin-right:10px;
+}
+.enroll-button:hover{
+    background-color:white;
+    border-radius:0px;
+    color:#ec4067;
+    border:1px solid #ec4067;
+}
 
+.explore-button{
+    width:100px;
+    height:40px;
+    font-size:20px;
+    background-color:white;
+    border:1px solid #ec4067;
+    color:#ec4067;
+    transition:.3s ease-in-out;
+}
 
+.explore-button:hover{
+    background-color:#ec4067;
+    color:white;
+}
 
+.story-one{
+    display:flex;
 
+}
 
+.story-two{
+    display:flex;
+    flex-direction: row-reverse;
+}
 
+.technical-team{
+    display:flex;
+}
 
+.technical-member img{
+    width:250px;
+    padding:5px 0px 5px;
+}
 
+.technical-member{
+    max-width:250px;
+    padding:30px;
+}
 
-
-
-
-
+#text{
+    color:#ec4067;
+    padding:20px 0px;
+}
 
 
 
