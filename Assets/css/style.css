@@ -9,7 +9,9 @@
 }
 .navigation-bar{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:20px 0px;
 }
 
 #heading-color{
@@ -34,6 +36,7 @@ a{
 .introduction-bar{
     display:flex;
     overflow:auto;
+    padding:20px 0px;
 }
 
 .introduction-text{
@@ -45,8 +48,21 @@ a{
     max-width:500px;
 }
 
+.introduction-text h1{
+    color:#ec4067;
+    font-weight: 200;
+}
+
+.introduction-text h2{
+    font-weight: 700;
+}
+
+.introduction-text p{
+    font-size:20px;
+    font-weight: 100;
+}
 .enroll-button{
-    width:130px;
+    width:170px;
     height:40px;
     font-size:20px;
     background-color:#ec4067;
@@ -67,29 +83,43 @@ a{
     width:100px;
     height:40px;
     font-size:20px;
-    background-color:white;
     border:1px solid #ec4067;
+    background-color:white;
     color:#ec4067;
     transition:.3s ease-in-out;
 }
 
+.stories-bar{
+    padding:20px 0px;
+}
+.stories-bar h2{
+    position:relative;
+    max-width:900px;
+    right:-90px;
+}
 .explore-button:hover{
     background-color:#ec4067;
     color:white;
 }
 
+.small-heading{
+    font-size:small;
+    margin:0px 5px;
+}
 .story-one{
     display:flex;
-
+    padding:20px 0px;
 }
 
 .story-two{
     display:flex;
     flex-direction: row-reverse;
+    padding:20px 0px;
 }
 
 .technical-team{
     display:flex;
+    padding:20px 0px;
 }
 
 .technical-member img{
@@ -103,13 +133,34 @@ a{
 }
 
 #text{
-    color:#ec4067;
     padding:20px 0px;
 }
 
+.project-title{
+    color:#ec4067;
+    font-weight: 200;
+}
+
+.enroll-bar h2{
+    color:#ec4067;
+    font-weight: 200;
+}
+.enroll-bar{
+    padding:20px;
+    position:relative;
+    right:-90px;
+    max-width:900px;
+}
 
 
-
+.footer{
+    background-color:#ccc;
+    height:100px;
+    padding:20px 0px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
 
 
 
