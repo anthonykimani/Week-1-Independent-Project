@@ -7,6 +7,7 @@
 .container{
     padding:10px;
 }
+/*=========NAVIGATION BAR=======*/
 .navigation-bar{
     display:flex;
     justify-content: space-evenly;
@@ -32,7 +33,7 @@ a{
     color:black;
     font-weight:200;
 }
-
+/*=========INTRODUCTION BAR=======*/
 .introduction-bar{
     display:flex;
     overflow:auto;
@@ -88,7 +89,7 @@ a{
     color:#ec4067;
     transition:.3s ease-in-out;
 }
-
+/*=========STORIES BAR=======*/
 .stories-bar{
     padding:10px 0px;
 }
@@ -125,7 +126,7 @@ a{
     justify-content: flex-end;
     padding:50px 0px;
 }
-
+/*=========TECHNICAL TEAM BAR=======*/
 .technical-team{
     display:flex;
     padding:20px 0px;
@@ -155,7 +156,7 @@ a{
     max-width:250px;
     padding:30px;
 }
-
+/*=========PROJECT BAR=======*/
 .project-title{
     color:#ec4067;
     font-weight: 200;
@@ -178,7 +179,7 @@ a{
     max-width:900px;
 }
 
-
+/*=========FOOTER BAR=======*/
 .footer{
     background-color:#ccc;
     height:100px;
@@ -186,6 +187,10 @@ a{
     display:flex;
     justify-content: center;
     align-items:center;
+}
+
+#contact{
+    color:#ec4067;
 }
 
 /*=====MEDIA QUERIES=======*/
@@ -362,11 +367,6 @@ a{
     }
 
 }
-
-@media(max-width:3)
-
-
-
 
 
 
